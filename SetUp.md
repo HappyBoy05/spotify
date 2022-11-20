@@ -45,7 +45,7 @@ curl -X POST -H "Content-Type: application/x-www-form-urlencoded" -H "Authorizat
 
 ## Deploy to Heroku  
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/HappyBoy05/spotify))
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/HappyBoy05/spotify)
 - Create a Heroku application via the Heroku CLI or via the Heroku Dashboard. Connect the app with your GitHub repository and enable automatic builds <br>
     `PS. automatic build means that everytime you push changes to remote, heroku will rebuild and redeploy the app.`
     - To start the Flask server execute `heroku ps:scale web=1` once the build is completed.
